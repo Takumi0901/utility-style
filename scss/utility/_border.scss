@@ -1,0 +1,42 @@
+/* border - utility
+--------------------------------------------------------- */
+
+/* border-radius */
+.u-br-4 {
+    @include border-radius(4px);
+}
+
+.u-br-8 {
+    @include border-radius(8px);
+}
+
+.u-br-12 {
+    @include border-radius(12px);
+}
+
+.u-br-16 {
+    @include border-radius(16px);
+}
+
+
+/* border-none */
+
+.u-br-0 {
+    border: none;
+}
+
+.u-br-t-0 {
+    border-top: none;
+}
+
+.u-br-r-0 {
+    border-right: none;
+}
+
+.u-br-b-0 {
+    border-bottom: none;
+}
+
+.u-br-l-0 {
+    border-left: none;
+}

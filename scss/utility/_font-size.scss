@@ -1,0 +1,7 @@
+/* font-size - utility
+--------------------------------------------------------- */
+@for $value from 1 to 10 {
+    .u-fz-#{$value * 2 + 8} {
+        font-size: 2px * $value + 8 !important;
+    }
+}

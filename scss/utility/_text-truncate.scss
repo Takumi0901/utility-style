@@ -1,0 +1,10 @@
+/* text-truncate - utility
+--------------------------------------------------------- */
+
+.u-tt {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal; /* for IE 8/9 */
+}

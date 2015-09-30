@@ -1,0 +1,18 @@
+// clearfix
+@mixin clearfix{
+  *zoom: 1;
+ 
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// border-radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}

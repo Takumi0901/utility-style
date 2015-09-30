@@ -1,0 +1,38 @@
+/* margin - utility
+--------------------------------------------------------- */
+
+/* auto margin */
+
+.u-m-c {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+
+/* Top margin */
+@for $value from 1 to 10 {
+    .u-mt-#{$value * $base-size - $base-size} {
+        margin-top: $base-size * $value - $base-size + px !important;
+    }
+}
+
+/* Right margin */
+@for $value from 1 to 10 {
+    .u-mr-#{$value * $base-size - $base-size} {
+        margin-right: $base-size * $value - $base-size + px !important;
+    }
+}
+
+/* Bottom margin */
+@for $value from 1 to 10 {
+    .u-mb-#{$value * $base-size - $base-size} {
+        margin-bottom: $base-size * $value - $base-size + px !important;
+    }
+}
+
+/* Left margin */
+@for $value from 1 to 10 {
+    .u-ml-#{$value * $base-size - $base-size} {
+        margin-left: $base-size * $value - $base-size + px !important;
+    }
+}

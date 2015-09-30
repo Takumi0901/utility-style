@@ -1,0 +1,10 @@
+/* line-clamp - utility
+--------------------------------------------------------- */
+
+.u-lc {
+    display: box;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
